@@ -1,0 +1,58 @@
+# ─── Credentials & Secrets ───────────────────
+config.json
+secrets.py
+.env
+
+# ─── Python cache ────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+
+# ─── Virtual environments ────────────────────
+venv/
+env/
+.venv/
+ENV/
+
+# ─── Logs (keep structure, ignore content) ───
+*.log
+naukri_run.log
+
+# ─── Excel output (optional — remove this
+#     line if you WANT to share sample xlsx) ──
+naukri_application_log.xlsx
+
+# ─── OS junk ─────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ─── IDE files ───────────────────────────────
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# ─── ChromeDriver cache ───────────────────────
+.wdm/
+```
+
+---
+
+## 📁 Final Repo Structure
+```
+naukri-job-bot/
+├── naukri_automation.py        ← main bot
+├── test_naukri_login.py        ← login diagnostic
+├── test_jd.py                  ← JD selector diagnostic
+├── Naukri_Job_Tracker.xlsx     ← sample tracker (optional)
+├── screenshots/
+│   ├── terminal_output.png
+│   ├── application_log.png
+│   ├── dashboard.png
+│   └── questionnaire_sheet.png
+├── .gitignore                  ← ✅ add this
+├── LICENSE                     ← ✅ MIT
+└── README.md                   ← ✅ already written above
