@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 🤖 Naukri Job Application Automation Bot
 
 ![Python](https://img.shields.io/badge/Python-3.8+-blue)
@@ -212,3 +213,7 @@ I'd love to collaborate.
 
 ⭐ If this helped or inspired you, please **star the repo** and share
 it with anyone grinding through job applications manually!
+=======
+# naukri-job-automation
+Automatically search, match, and apply for jobs on Naukri.com
+>>>>>>> a9e3a0d12aa5cdef9567023cf0d4000e66300aea

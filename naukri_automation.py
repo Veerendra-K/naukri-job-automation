@@ -23,8 +23,8 @@ import logging
 #  CONFIGURATION — Edit these before running
 # ─────────────────────────────────────────────
 CONFIG = {
-    "email": "veerendrasagar.k48@gmail.com",
-    "password": "MyDream#2324",
+    "email": "",
+    "password": "",
 
     # Target job titles to search
     "target_titles": [
